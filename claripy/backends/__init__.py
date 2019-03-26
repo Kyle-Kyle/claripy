@@ -2,6 +2,7 @@ import ctypes
 import weakref
 import operator
 import threading
+from claripy.ast import Base
 
 import logging
 l = logging.getLogger('claripy.backend')
